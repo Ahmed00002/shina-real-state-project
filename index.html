@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uniq</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="font-defFont">
+    <header class="bg-primary">
+      <!-- email and socials -->
+      <div class="gradient">
+        <!-- ------ -->
+        <!-- container email and icons -->
+        <div class="center">
+          <div
+            class="p-4 h-[50px] grid grid-cols-3 justify-end items-center text-white"
+          >
+            <!-- email container -->
+            <div class="text-sm font-normal text-white flex items-center gap-3">
+              <i class="fa-regular fa-envelope text-secondary text-lg"></i>
+              Email us at : sales@yourwebsite.com
+            </div>
+
+            <!-- social icons -->
+            <div class="flex justify-end">
+              <div class="space-x-9 text-sm">
+                <i
+                  class="fa-brands fa-facebook-f hover:text-secondary cursor-pointer"
+                ></i>
+                <i
+                  class="fa-brands fa-twitter hover:text-secondary cursor-pointer"
+                ></i>
+                <i
+                  class="fa-brands fa-x-twitter hover:text-secondary cursor-pointer"
+                ></i>
+                <i
+                  class="fa-brands fa-pinterest-p hover:text-secondary cursor-pointer"
+                ></i>
+              </div>
+            </div>
+            <!-- contact number -->
+            <div class="flex gap-3 justify-center items-center pl-16">
+              <i class="fa-solid fa-phone"></i>
+              <p>1-800-555-1234</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- brand and nav -->
+      <div
+        class="grid grid-cols-3 items-center center bg-primary text-white pt-8"
+      >
+        <div class="col-span-1">
+          <img src="asset/logo.png" alt="logo" class="mb-4" />
+        </div>
+        <div class="h-full flex items-end col-span-2 justify-self-end">
+          <ul class="flex gap-[2px] cursor-pointer relative uppercase">
+            <li
+              class="bg-secondary h-[100%] pb-3 pt-2 px-3 border-b-2 border-green-700"
+            >
+              Home
+            </li>
+            <li
+              class="h-[100%] pb-3 pt-2 px-3 hover:border-b-2 hover:border-green-700 hover:bg-secondary"
+            >
+              About Us
+            </li>
+            <li
+              class="h-[100%] pb-3 pt-2 px-3 hover:border-b-2 hover:border-green-700 hover:bg-secondary relative hover-show"
+            >
+              Our Agents
+
+              <!-- agents sub-menu -->
+              <ul
+                class="absolute top-[100%] left-0 bg-lime-500 hidden z-10 text-nowrap w-[200px] text-sm space-y-[1px] border-t-4 border-green-700 capitalize"
+              >
+                <li
+                  class="bg-secondary hover:bg-primary hover:text-white px-3 py-2"
+                >
+                  Agents
+                </li>
+                <li
+                  class="bg-secondary hover:bg-primary hover:text-white px-3 py-2"
+                >
+                  Agent Details
+                </li>
+              </ul>
+            </li>
+            <li
+              class="h-[100%] pb-3 pt-2 px-3 hover:border-b-2 hover:border-green-700 hover:bg-secondary relative hover-show"
+            >
+              Properties
+
+              <!-- properties sub-menu -->
+              <ul
+                class="absolute top-[100%] left-0 bg-lime-500 hidden z-10 text-nowrap w-[200px] text-sm space-y-[1px] border-t-4 border-green-700 capitalize"
+              >
+                <li
+                  class="bg-secondary hover:bg-primary hover:text-white px-3 py-2"
+                >
+                  Property grid View
+                </li>
+                <li
+                  class="bg-secondary hover:bg-primary hover:text-white px-3 py-2"
+                >
+                  property List view
+                </li>
+                <li
+                  class="bg-secondary hover:bg-primary hover:text-white px-3 py-2"
+                >
+                  Property Modern View
+                </li>
+                <li
+                  class="bg-secondary hover:bg-primary hover:text-white px-3 py-2"
+                >
+                  property Details
+                </li>
+              </ul>
+            </li>
+            <li
+              class="h-[100%] pb-3 pt-2 px-3 hover:border-b-2 hover:border-green-700 hover:bg-secondary relative hover-show"
+            >
+              Gallery
+
+              <!-- gallery sub-menu -->
+              <ul
+                class="absolute top-[100%] left-0 bg-lime-500 hidden z-10 text-nowrap w-[200px] text-sm space-y-[1px] border-t-4 border-green-700 capitalize"
+              >
+                <li
+                  class="bg-secondary hover:bg-primary hover:text-white px-3 py-2"
+                >
+                  Gallery Masonry
+                </li>
+                <li
+                  class="bg-secondary hover:bg-primary hover:text-white px-3 py-2"
+                >
+                  Gallery Grid View
+                </li>
+              </ul>
+            </li>
+
+            <!-- blog menu -->
+            <li
+              class="h-[100%] pb-3 pt-2 px-3 hover:border-b-2 hover:border-green-700 hover:bg-secondary relative hover-show"
+            >
+              Blog
+
+              <!-- blog sub-menu -->
+              <ul
+                class="absolute top-[100%] left-0 bg-lime-500 hidden z-10 text-nowrap w-[200px] text-sm space-y-[1px] border-t-4 border-green-700 capitalize"
+              >
+                <li
+                  class="bg-secondary hover:bg-primary hover:text-white px-3 py-2"
+                >
+                  Blog grid
+                </li>
+                <li
+                  class="bg-secondary hover:bg-primary hover:text-white px-3 py-2"
+                >
+                  Blog List
+                </li>
+                <li
+                  class="bg-secondary hover:bg-primary hover:text-white px-3 py-2"
+                >
+                  Blog Classic
+                </li>
+                <li
+                  class="bg-secondary hover:bg-primary hover:text-white px-3 py-2"
+                >
+                  Blog Details
+                </li>
+              </ul>
+            </li>
+
+            <li
+              class="h-[100%] pb-3 pt-2 px-3 hover:border-b-2 hover:border-green-700 hover:bg-secondary"
+            >
+              Contact Us
+            </li>
+            <!-- search -->
+            <li class="pb-3 pt-2 px-3 border-l-2 border-white search-clicked">
+              <i class="fa-solid fa-magnifying-glass ml-2"></i>
+              <div
+                class="absolute top-[100%] right-0 bg-white border-t-4 border-secondary border-2 z-10 px-6 py-7 text-primary hidden"
+              >
+                <div
+                  class="border-[1px] border-solid border-secondary p-1 px-3"
+                >
+                  <label>
+                    <input
+                      type="text"
+                      placeholder="Search"
+                      class="outline-none text-sm border-none px-2 py-1 font-normal"
+                    /> </label
+                  ><i
+                    class="fa-solid fa-magnifying-glass ml-2 text-primary text-xs"
+                  ></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>

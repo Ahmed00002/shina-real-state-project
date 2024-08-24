@@ -1,0 +1,34 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+/* font-family: 'Helvetica Neue', sans-serif; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .img-hover:hover .hover-applied {
+    @apply bottom-0 left-0;
+  }
+  .clippath {
+    clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);
+    background-color: #71b100;
+  }
+  .clippath2 {
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+    background-color: rgb(128, 51, 0);
+  }
+  .center {
+    @apply max-w-[1440px] mx-auto px-8 md:px-12 lg:px-24;
+  }
+
+  .gradient {
+    background: #1a1d1f;
+    background: linear-gradient(66deg, #1a1d1f 65%, #71b100 65%);
+  }
+  .search-clicked:hover div {
+    @apply block;
+  }
+  .hover-show:hover ul {
+    @apply block;
+  }
+}
