@@ -18,14 +18,14 @@
     background-color: rgb(128, 51, 0);
   }
   .center {
-    @apply max-w-[1440px] mx-auto px-8 md:px-12 lg:px-24;
+    @apply max-w-[1440px] mx-auto px-3 md:px-6 lg:px-24;
   }
 
   .gradient {
     background: #1a1d1f;
     background: linear-gradient(66deg, #1a1d1f 65%, #71b100 65%);
   }
-  .search-clicked:hover div {
+  .search-clicked:hover > div {
     @apply block;
   }
   .hover-show:hover ul {
