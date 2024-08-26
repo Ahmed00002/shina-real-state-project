@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: {
         defFont: ["Helvetica Neue", "sans-serif"],
       },
+      theme: {
+        md: "1024px",
+      },
     },
   },
   plugins: [require("daisyui")],

@@ -18,7 +18,7 @@
     background-color: rgb(128, 51, 0);
   }
   .center {
-    @apply max-w-[1440px] mx-auto px-3 md:px-6 lg:px-24;
+    @apply max-w-[1440px] mx-auto px-3 md:px-6 lg:px-20;
   }
 
   .gradient {
@@ -30,5 +30,18 @@
   }
   .hover-show:hover ul {
     @apply block;
+  }
+  .hero {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, rgba(215, 134, 134, 0.208), 0.233),
+      black
+    );
+  }
+  .btns {
+    @apply bg-[#3f4249] text-white border-none px-8 py-4 rounded-none hover:bg-secondary transition-all duration-300;
+  }
+  .para {
+    @apply text-base font-medium;
   }
 }

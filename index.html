@@ -32,7 +32,7 @@
             </div>
 
             <!-- social icons -->
-            <div class="md:flex hidden md:block justify-end">
+            <div class="md:flex hidden justify-end">
               <div class="space-x-9 text-sm">
                 <i
                   class="fa-brands fa-facebook-f hover:text-secondary cursor-pointer"
@@ -49,9 +49,7 @@
               </div>
             </div>
             <!-- contact number -->
-            <div
-              class="hidden md:block md:flex gap-3 justify-center items-center pl-16"
-            >
+            <div class="hidden md:flex gap-3 justify-center items-center pl-16">
               <i class="fa-solid fa-phone"></i>
               <p>1-800-555-1234</p>
             </div>
@@ -61,14 +59,14 @@
 
       <!-- brand and nav -->
       <div
-        class="grid text-sm lg:text-md grid-cols-1 lg:grid-cols-3 items-center center bg-primary text-white pt-8 pb-4 md:pb-0"
+        class="grid text-sm lg:text-md grid-cols-1 lg:grid-cols-12 items-center bg-primary text-white pt-8 pb-4 md:pb-0 center"
       >
-        <div class="md:col-span-1">
-          <img src="asset/logo.png" alt="logo" class="mb-4 mx-auto md:mx-0" />
+        <div class="lg:col-span-2">
+          <img src="asset/logo.png" alt="logo" class="mb-4" />
         </div>
 
         <div
-          class="h-full lg:flex items-end md:col-span-2 lg:justify-self-end flex justify-between"
+          class="h-full lg:flex items-end lg:col-span-10 lg:justify-self-end flex justify-between"
         >
           <div>
             <ul class="flex gap-[2px] cursor-pointer relative uppercase">
@@ -196,7 +194,7 @@
               </li>
               <!-- search -->
               <li
-                class="pb-3 pt-2 px-3 md:border-l-2 md:border-white search-clicked"
+                class="pb-3 pt-2 px-2 md:border-l-2 md:border-white search-clicked"
               >
                 <i class="fa-solid fa-magnifying-glass ml-2"></i>
                 <div
@@ -226,6 +224,56 @@
           </div>
         </div>
       </div>
+
+      <!-- hero section -->
+      <div
+        class="py-32 md:py-40 lg:py-56 bg-no-repeat bg-cover flex-1 grid place-items-center"
+        style="
+          background-image: linear-gradient(
+              rgba(0, 0, 0, 0.456),
+              rgba(0, 0, 0, 0.497)
+            ),
+            url(asset/hero.jpg);
+        "
+      >
+        <div class="center grid lg:grid-cols-2 items-center">
+          <!-- hero details -->
+          <div class="space-y-3 lg:space-y-6 text-white">
+            <h2 class="uppercase font-medium text-lg md:text-xl">
+              luxury Houses
+            </h2>
+            <h1
+              class="pl-4 md:pl-8 border-l-4 border-gray-400 text-3xl md:text-6xl leading-normal"
+            >
+              Luxury <br />
+              Residence here
+            </h1>
+            <p class="para">
+              Whether You're looking to sell or let your home or want to buy or
+              rent a home, we really are the people for you to come to.
+            </p>
+            <button class="btns">Read more</button>
+          </div>
+
+          <!-- hero card -->
+          <div class="w-[300px] justify-self-center hidden lg:block">
+            <div class="text-white text-center space-y-4 bg-[#00000082] p-8">
+              <h2 class="uppercase text-lg font-medium">sale price</h2>
+              <h1 class="text-4xl font-medium">$1234,457</h1>
+              <p class="para mb-4">Abailable: Right Now</p>
+            </div>
+            <div
+              class="bg-secondary p-4 text-center text-lg text-white relative"
+            >
+              <h3>More Detail</h3>
+              <div
+                class="p-3 bg-secondary rotate-45 absolute bottom-[80%] left-1/2 -translate-x-1/2"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
+    <main></main>
   </body>
 </html>
